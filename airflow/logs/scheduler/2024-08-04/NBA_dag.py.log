@@ -1,0 +1,112 @@
+[2024-08-04T19:52:14.627+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:52:14.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/NBA_dag.py for tasks to queue
+[2024-08-04T19:52:14.633+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:52:14.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:52:15.479+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:52:15.467+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/NBA_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/NBA_dag.py", line 11, in <module>
+    from  ETL_pipline  import Extract_data_frame,transform_data,load_the_file
+ModuleNotFoundError: No module named 'ETL_pipline'
+[2024-08-04T19:52:15.484+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:52:15.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/NBA_dag.py took 1.056 seconds
+[2024-08-04T19:52:46.356+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:52:46.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/NBA_dag.py for tasks to queue
+[2024-08-04T19:52:46.363+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:52:46.362+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:52:47.220+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:52:47.209+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/NBA_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/NBA_dag.py", line 11, in <module>
+    from  ETL_pipline  import Extract_data_frame,transform_data,load_the_file
+ModuleNotFoundError: No module named 'ETL_pipline'
+[2024-08-04T19:52:47.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:52:47.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/NBA_dag.py took 1.035 seconds
+[2024-08-04T19:53:17.807+0000] {processor.py:161} INFO - Started process (PID=80) to work on /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:53:17.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/NBA_dag.py for tasks to queue
+[2024-08-04T19:53:17.813+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:53:17.812+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:53:18.700+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:53:18.688+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/NBA_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/NBA_dag.py", line 11, in <module>
+    from  ETL_pipline  import Extract_data_frame,transform_data,load_the_file
+ModuleNotFoundError: No module named 'ETL_pipline'
+[2024-08-04T19:53:18.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:53:18.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/NBA_dag.py took 1.195 seconds
+[2024-08-04T19:53:49.755+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:53:49.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/NBA_dag.py for tasks to queue
+[2024-08-04T19:53:49.762+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:53:49.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:53:50.672+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:53:50.659+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/NBA_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/NBA_dag.py", line 11, in <module>
+    from  ETL_pipline  import Extract_data_frame,transform_data,load_the_file
+ModuleNotFoundError: No module named 'ETL_pipline'
+[2024-08-04T19:53:50.676+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:53:50.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/NBA_dag.py took 1.086 seconds
+[2024-08-04T19:54:22.069+0000] {processor.py:161} INFO - Started process (PID=84) to work on /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:54:22.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/NBA_dag.py for tasks to queue
+[2024-08-04T19:54:22.075+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:54:22.074+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:54:22.875+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:54:22.864+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/NBA_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/NBA_dag.py", line 11, in <module>
+    from  ETL_pipline  import Extract_data_frame,transform_data,load_the_file
+ModuleNotFoundError: No module named 'ETL_pipline'
+[2024-08-04T19:54:22.880+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:54:23.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/NBA_dag.py took 1.015 seconds
+[2024-08-04T19:54:54.016+0000] {processor.py:161} INFO - Started process (PID=86) to work on /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:54:54.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/NBA_dag.py for tasks to queue
+[2024-08-04T19:54:54.025+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:54:54.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:54:55.010+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:54:54.998+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/NBA_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/NBA_dag.py", line 11, in <module>
+    from  ETL_pipline  import Extract_data_frame,transform_data,load_the_file
+ModuleNotFoundError: No module named 'ETL_pipline'
+[2024-08-04T19:54:55.014+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:54:56.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/NBA_dag.py took 2.316 seconds
+[2024-08-04T19:55:27.006+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:55:27.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/NBA_dag.py for tasks to queue
+[2024-08-04T19:55:27.011+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:55:27.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:55:28.108+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:55:28.097+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/NBA_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/NBA_dag.py", line 11, in <module>
+    from  ETL_pipline  import Extract_data_frame,transform_data,load_the_file
+ModuleNotFoundError: No module named 'ETL_pipline'
+[2024-08-04T19:55:28.111+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:55:28.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/NBA_dag.py took 1.262 seconds
+[2024-08-04T19:55:59.008+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:55:59.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/NBA_dag.py for tasks to queue
+[2024-08-04T19:55:59.014+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:55:59.014+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:56:00.047+0000] {logging_mixin.py:188} INFO - [2024-08-04T19:56:00.036+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/NBA_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/NBA_dag.py", line 11, in <module>
+    from  ETL_pipline  import Extract_data_frame,transform_data,load_the_file
+ModuleNotFoundError: No module named 'ETL_pipline'
+[2024-08-04T19:56:00.051+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/NBA_dag.py
+[2024-08-04T19:56:00.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/NBA_dag.py took 1.206 seconds
